@@ -134,3 +134,5 @@ Change 8000 to whatever you want.
 ## License
 
 [MIT License](https://github.com/ourcade/phaser3-typescript-parcel-template/blob/master/LICENSE)
+
+reference: https://storage.googleapis.com/assets.ourcade.co/books/Infinite_Runner_Phaser3_TypeScript.pdf
