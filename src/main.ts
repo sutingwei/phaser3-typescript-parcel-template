@@ -1,6 +1,7 @@
 import Phaser from 'phaser'
 
 import HelloWorldScene from './scenes/HelloWorldScene'
+import Preloader from './scenes/Preloader'
 import Game from './scenes/Game'
 
 const config: Phaser.Types.Core.GameConfig = {
@@ -14,7 +15,7 @@ const config: Phaser.Types.Core.GameConfig = {
 		}
 	},
 	// scene: [HelloWorldScene]
-	scene: [Game]
+	scene: [Preloader, Game]
 }
 
 export default new Phaser.Game(config)
